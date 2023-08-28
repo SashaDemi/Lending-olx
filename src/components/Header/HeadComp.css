@@ -17,14 +17,23 @@
 
 .sticker-head-box {
     display: flex;
-    flex: 2;
+    flex: 20;
     justify-content: center;
     align-items: center;
 }
 
-.head-img-olx {
-    height: 70px;
+.img-olx-head {
     width: 70px;
+}
+.logo-img {
+    height: 20px;
+    width: 20px;
+    color: white;
+    margin-right: 10px;
+}
+.img-a-wrap {
+    height: 70px;
+    margin-left: -150px;
 }
 
 .header-content a {
@@ -33,10 +42,10 @@
     text-decoration: none;
     color: white;
     font-size: 16px;
+    margin-right: 20px;
 }
 
 .header-content {
     display: flex;
-    justify-content: space-around;
-    flex: 5 ;
+    flex: 40 ;
 }
