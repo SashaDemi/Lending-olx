@@ -1,53 +1,40 @@
- .main-head-box {
-     display: flex;
-     background: #002f34;
-     color: #fff;
-     font-weight: 500;
-     font-family: Arial, sans-serif;
-     margin-top: 12px;
-     margin-bottom: 12px;
-     font-size: 2em;
- }
- .header-box {
-     display: flex;
-     flex: 1;
-     justify-content: space-around;
- }
+.main-head-box {
+    display: flex;
+    background: #002f34;
+    color: #fff;
+    font-weight: 500;
+    font-family: Arial, sans-serif;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-size: 2em;
+}
+
+.header-box {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+}
+
 .sticker-head-box {
     display: flex;
-    justify-content: space-around;
     flex: 0.02;
 }
-.language-head-box {
-    display: flex;
-    align-items: center;
-}
-.select-language {
-    display: flex;
-    align-items: center;
-}
-.message-head-box {
-    display: flex;
-    align-items: center;
-}
-.like-head-box {
-    display: flex;
-    align-items: center;
-}
-.profile-head-box {
-    display: flex;
-    align-items: center;
-}
-.advertise-head-box {
-    display: flex;
-    align-items: center;
-}
+
 .head-img-olx {
     height: 70px;
     width: 70px;
 }
-.div-div {
+
+.header-content a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.header-content {
     display: flex;
     justify-content: space-around;
-    flex: 0.6;
+    flex: 0.4;
 }
