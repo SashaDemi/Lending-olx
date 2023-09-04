@@ -1,0 +1,30 @@
+.main-footer {
+    background-color: #cbf7ee;
+}
+
+.olx-img {
+    width: 99px;
+    height: 56px;
+    top: 82px;
+    left: 50%;
+    margin-top: 80px;
+    margin-left: 740px;
+}
+
+.main-text {
+    font-family: "Arial", Helvetica, sans-serif;
+    color: #002f34;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+.small-text {
+    color: #687981;
+    font-size: 11px;
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 50px;
+}

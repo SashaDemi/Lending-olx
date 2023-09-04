@@ -6,7 +6,7 @@ const App = () => {
     return (
         <div>
             <HeadComp />
-            {/*<Footer />*/}
+            <Footer />
         </div>
     );
 };
