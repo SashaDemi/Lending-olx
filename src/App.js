@@ -1,12 +1,14 @@
 import './App.css';
 import HeadComp from "./components/Header/HeadComp";
 import Footer from "./components/Footer/footer";
+import MainContent from "./components/Main Content/MainContent";
 
 const App = () => {
     return (
         <div>
-            <HeadComp />
-            <Footer />
+            <HeadComp/>
+            <MainContent/>
+            <Footer/>
         </div>
     );
 };

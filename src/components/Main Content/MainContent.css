@@ -1,0 +1,13 @@
+.head-content-box {
+    display: flex;
+    justify-content: center;
+}
+
+
+.content-wrapper div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-width: 140px;
+    margin-bottom: 10px;
+}
