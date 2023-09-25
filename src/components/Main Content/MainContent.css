@@ -4,11 +4,17 @@
 }
 
 
-.content-wrapper div {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    min-width: 140px;
-    margin-bottom: 10px;
+/*.content-wrapper {*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    justify-content: center;*/
+/*    min-width: 140px;*/
+/*    margin-bottom: 10px;*/
+/*    text-align: center;*/
+/*}*/
+
+.grid-main-content {
+    display: grid;
+    grid-template-columns: repeat(9, 8%);
     text-align: center;
 }

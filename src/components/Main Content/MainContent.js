@@ -39,16 +39,23 @@ const MainContent = () => {
         {img: carsForWar, backColor: 'rgb(255, 86, 54)', text: 'Авто для победы'},
         {img: school, backColor: 'rgb(255, 246, 217)', text: 'Товары для школы'},
         {img: forVictory, backColor: 'rgb(206, 221, 255)', text: 'Товары для победы'},
-    ]
+    ];
+    // const firstNineElements = mainContentDataTop.slice(0, 9);
+    // const secondNineElements = mainContentDataTop.slice(9, 18);
+
     return (
         <div>
             <div className='head-content-box'>
                 <h1>Главные рубрики</h1>
             </div>
-            <div className='content-wrapper'>
-                <div>
-                    {mainContentDataTop.map(e => <ContentElement data={e}/>)}
-                </div>
+            <div className='grid-main-content'>
+                {/*<div>*/}
+                {/*    {firstNineElements.map(e => <ContentElement data={e}/>)}*/}
+                {/*</div>*/}
+                {/*<div>*/}
+                {/*    {secondNineElements.map(e => <ContentElement data={e}/>)}*/}
+                {/*</div>*/}
+                {mainContentDataTop.map(e => <ContentElement data={e}/>)}
             </div>
         </div>
     )
