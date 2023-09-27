@@ -1,20 +1,14 @@
 .head-content-box {
     display: flex;
     justify-content: center;
+    height: 110px;
+    padding: 10px;
 }
-
-
-/*.content-wrapper {*/
-/*    display: flex;*/
-/*    flex-wrap: wrap;*/
-/*    justify-content: center;*/
-/*    min-width: 140px;*/
-/*    margin-bottom: 10px;*/
-/*    text-align: center;*/
-/*}*/
 
 .grid-main-content {
     display: grid;
-    grid-template-columns: repeat(9, 8%);
+    grid-template: repeat(2, 1fr) / repeat(9, 9%);
     text-align: center;
+    justify-content: center;
+    row-gap: 40px;
 }

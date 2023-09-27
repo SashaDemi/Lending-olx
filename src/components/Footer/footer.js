@@ -4,7 +4,7 @@ import olxFooterImg from '../img/OLX-logo.png'
 const Footer = () => {
     return (
         <div className='main-footer'>
-            <div className="grid-container">
+            <div className="grid-container-img">
                 <img src={olxFooterImg} alt="no img" className='olx-img'/>
             </div>
             <div className='main-text'>
