@@ -1,0 +1,31 @@
+.row-block {
+    max-width: 106px;
+}
+
+.item-block {
+    display: flex;
+    justify-content: center;
+}
+
+.row-block-text {
+    color: #002f34;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.row-img {
+    border-radius: 50%;
+    display: flex;
+    width: 88px;
+    margin-bottom: 19px;
+}
+
+.href-style-text {
+    text-decoration: none;
+}
+
+
+.row-block-text:hover {
+    background-color: #002f34;
+    color: white;
+}
